@@ -1,13 +1,13 @@
 {% set name = "traces" %}
-{% set version = "0.5.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/datascopeanalytics/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: dadac5bebf5d48d099ec8d301864a7cc9d763226ea3ae8a68fd6ec16998737ed
+  url: https://github.com/datascopeanalytics/{{ name }}/archive/{{ version }}.tar.gz
+  sha256: eb0f2539dff1ca557dd9c3ff670a3568af44e455902eda6bfd6084e0239d1b1b
 
 build:
   noarch: python
